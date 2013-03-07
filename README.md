@@ -3,12 +3,11 @@
 
 Benötigt ein CMS damit die user die seiten bearbeiten können.
 
-Todo
-
-
-* embed Font Chalkduster
+## Todo
+* embed Font Chalkduster (for Os that dont have it, or find a similiar font with open license)
 * Favicon test if they work on chrome
-
+* find icons for menu bar
+* make mobile version
 
 ## Colors
 
