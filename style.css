@@ -4,9 +4,11 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+/* Colors */
 body {
   /* best helvetica */
 
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
+  color: #2b373c;
 }

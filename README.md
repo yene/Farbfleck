@@ -7,7 +7,7 @@ Todo
 
 
 * embed Font Chalkduster
-* df
+* Favicon test if they work on chrome
 
 
 ## Colors
