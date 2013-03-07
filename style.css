@@ -11,36 +11,60 @@ body {
   font-family: "Chalkduster", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   color: #2b373c;
+  background: url('images/vintage_speckles.png') repeat;
+}
+.logo {
+  height: 300px;
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+}
+.logo h1 {
+  font-size: 40px;
+}
+.logo h2 {
+  font-size: 20px;
+  color: #eb8603;
 }
 nav {
   width: 100%;
   height: 50px;
   background-color: #9bbd42;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: #2b373c;
+}
+nav a:hover {
+  border-bottom: 2px solid #2b373c;
 }
 nav ul {
-  margin: 0px auto;
-  width: 700px;
+  display: inline-block;
 }
 nav ul li {
-  line-height: 50px;
   float: left;
-  margin-left: 10px;
   padding-right: 10px;
   list-style: none;
-  border-right: 2px solid black;
 }
-nav ul li:last-child {
-  border-right: none;
+nav ul li:after {
+  padding-left: 10px;
+  content: "|";
+}
+nav ul li:last-child:after {
+  content: "";
+}
+section {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 footer {
   width: 100%;
+  text-align: center;
   position: fixed;
   height: 40px;
   bottom: 0px;
   background-color: #9bbd42;
 }
 footer p {
-  line-height: 40px;
-  margin: 0px auto;
-  width: 300px;
+  display: inline-block;
 }
