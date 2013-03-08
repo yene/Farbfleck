@@ -18,10 +18,16 @@ body {
 .logo {
   height: 300px;
   h1 {
+    display: inline-block;
     font-size: 40px;
+    .transform(translate(400px, 150px));
+    font-weight: 700;
   }
   h2 {
+    display: inline-block;
+    .transform(translate(100px, 190px));
     font-size: 20px;
+    font-weight: normal;
     color: @orange;
   }
   background-image: url('logo.png');
@@ -74,6 +80,16 @@ footer {
   bottom: 0px;
   background-color: @green;
   p {
+    margin-top: 10px;
     display: inline-block;
   }
+}
+
+
+/* mixins */
+.transform ( @command) {
+  -ms-transform: @command;
+  -webkit-transform: @command;
+  -moz-transform: @command;
+  transform: @command;
 }
