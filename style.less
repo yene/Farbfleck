@@ -30,6 +30,10 @@ body {
     font-weight: normal;
     color: @orange;
   }
+   @media @palm { // remove header on iOS deivce
+     display: none;
+   }
+
   background-image: url('logo.png');
   background-repeat: no-repeat;
 }
@@ -85,6 +89,11 @@ footer {
   }
 }
 
+/* media queries */
+@palm: ~"only screen and (max-width: 480px)";
+@lap: ~"@media only screen and (min-width: 481px) and (max-width: 1023px)";
+@portalbe: ~"@media only screen and (max-width: 1023px)";
+@desk: ~"@media only screen and (min-width: 1024px)";
 
 /* mixins */
 .transform ( @command) {
