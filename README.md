@@ -8,6 +8,7 @@ Benötigt ein CMS damit die user die seiten bearbeiten können.
 * Favicon test if they work on chrome
 * find icons for menu bar
 * make mobile version
+* reinhard wegen chalk font und icons fragen
 
 ## Colors
 
