@@ -9,6 +9,8 @@ Benötigt ein CMS damit die user die seiten bearbeiten können.
 * find icons for menu bar
 * make mobile version
 * reinhard wegen chalk font und icons fragen
+* gallery/contact forms
+* IE8 compatible
 
 ## Colors
 

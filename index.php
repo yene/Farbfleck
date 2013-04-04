@@ -1,14 +1,5 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Atelier Farbfleck</title>
-  <!-- Normalize.css is a customisable CSS file that makes browsers render all elements more consistently and in line with modern standards. -->
-  <link rel="stylesheet" media="screen" href="normalize.css">
-  <link rel="stylesheet" media="screen" href="style.css">
-  <link rel="icon" type="image/png" href="favicon.png">
-</head>
-<body>
+  <?php get_header(); ?>
+  
   <header>
     <div class="logo">
       <h1>Atelier Farbfleck</h1>
@@ -16,17 +7,26 @@
     </div>
     <nav>
       <ul>
-        <li><a href="">Über uns</a></li>
-        <li><a href="">Methode</a></li>
-        <li><a href="">Angebot</a></li>
-        <li><a href="">Kursdaten</a></li>
-        <li><a href="">Standort</a></li>
-        <li><a href="">Kontakt</a></li>
+        <?php wp_list_pages('title_li='); ?>
       </ul>
     </nav>
   </header>
   <br style="clear: both;">
   <section>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+    <article>
+      <header>
+        <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+        <p>Posted on <time datetime="2011-04-15T16:31:24+02:00">April 15th 2011</time> by <a href="#">Writer</a> – <a href="#comments">6 comments</a></p>
+        <?php the_time('F jS, Y') ?> by <?php the_author_posts_link() ?>
+      </header>
+      <p> rest gibt es unter http://webworkblog.net/20-5-eigenes-wordpress-theme-template-erstellen-tutorial-howto/</p>
+    </article>
+<?php endwhile; else: ?>
+<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+<?php endif; ?>
+
+
     <article>
       <header>
         <h2>Article title</h2>
@@ -42,6 +42,7 @@
       <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
     </article>
   </section>
+  <?php get_footer(); ?>
   <footer>
     <p>Copyright 2011 Your name</p>
   </footer>
