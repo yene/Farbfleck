@@ -85,6 +85,15 @@ nav ul li:after {
 nav ul li:last-child:after {
   content: "";
 }
+nav i {
+  background-image: url("images/pstam-sprite-v2.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  opacity: 0.8;
+  width: 24px;
+  height: 26px;
+  background-position: -150px 0;
+}
 section {
   padding-left: 20px;
   padding-right: 20px;
