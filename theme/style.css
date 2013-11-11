@@ -29,8 +29,8 @@ body {
   margin: 0;
 }
 #primary {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .logo {
   height: 300px;
@@ -107,7 +107,6 @@ section {
 footer {
   width: 100%;
   text-align: center;
-  position: fixed;
   height: 40px;
   bottom: 0px;
   background-color: #9bbd42;
@@ -118,3 +117,6 @@ footer p {
 }
 /* media queries */
 /* mixins */
+.slideshow_container {
+  margin: auto !important;
+}
