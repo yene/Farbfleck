@@ -33,26 +33,26 @@ body {
   margin-right: 40px;
 }
 .logo {
-  height: 300px;
+  height: 200px;
   background-image: url('logo.png');
   background-repeat: no-repeat;
-  background-position: 160px 30px;
+  background-position: 230px 12px;
 }
 .logo h1 {
   display: inline-block;
   font-size: 40px;
-  -ms-transform: translate(400px, 150px);
-  -webkit-transform: translate(400px, 150px);
-  -moz-transform: translate(400px, 150px);
-  transform: translate(400px, 150px);
+  -ms-transform: translate(400px, 50px);
+  -webkit-transform: translate(400px, 50px);
+  -moz-transform: translate(400px, 50px);
+  transform: translate(400px, 50px);
   font-weight: 700;
 }
 .logo h2 {
   display: inline-block;
-  -ms-transform: translate(100px, 190px);
-  -webkit-transform: translate(100px, 190px);
-  -moz-transform: translate(100px, 190px);
-  transform: translate(100px, 190px);
+  -ms-transform: translate(100px, 90px);
+  -webkit-transform: translate(100px, 90px);
+  -moz-transform: translate(100px, 90px);
+  transform: translate(100px, 90px);
   font-size: 20px;
   font-weight: normal;
   color: #eb8603;
