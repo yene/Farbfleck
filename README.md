@@ -1,7 +1,5 @@
-# Atelier Farbfleck
-
-
-Benötigt ein CMS damit die user die seiten bearbeiten können.
+# Wordpress Theme Farbfleck
+* for a wordpress site that uses only pages
 
 ## Todo
 * embed Font Chalkduster (for Os that dont have it, or find a similiar font with open license)
@@ -17,16 +15,6 @@ Benötigt ein CMS damit die user die seiten bearbeiten können.
 * seperator green: #9bbd42
 * subtitle orange: #eb8603
 * default font: #2b373c
-
-## Wordpress requirements
-
-
-* page über uns
-* page methode
-* page angebot
-* page kursdaten
-* page standort
-* page kontakt
 
 ## credits
 * credit subtlepatterns.com 
