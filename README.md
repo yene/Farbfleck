@@ -3,12 +3,8 @@
 
 ## Todo
 * embed Font Chalkduster (for Os that dont have it, or find a similiar font with open license)
-* Favicon test if they work on chrome
-* find icons for menu bar
-* make mobile version
-* reinhard wegen chalk font und icons fragen
-* gallery/contact forms
-* IE8 compatible
+* test mobile version (favicon, style, header)
+* test in IE (favicon, style, header)
 
 ## Colors
 
